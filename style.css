@@ -1,0 +1,156 @@
+* {
+    box-sizing: 1px;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    
+  }
+
+.keseluruhan {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    padding-top: 8rem;
+    width: 900px;
+    height: auto;
+}
+
+.section0 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 8rem;
+}
+
+.section1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.kelas {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: white;
+   
+    background-color: rgb( 249, 110, 70);
+    border: black;
+    padding: 10px 10px;
+   
+    border-radius: 3%;
+    width: 550px;
+    height: 150px;
+}
+
+.kelas2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: black;
+   
+    background-color: rgb( 249, 200, 70);
+    padding: 10px 10px;
+   
+    border-radius: 3%;
+    width: 550px;
+    height: 150px;
+}
+
+.kelas3 {
+    position: relative;
+    
+}
+/* .time {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: black;
+    padding: 10px 10px;
+    font-size: 20px;
+    
+} */
+
+@media (max-width: 900px) {
+    .kelas {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        color: white;
+       
+        background-color: rgb( 249, 110, 70);
+        border: black;
+        padding: 10px 10px;
+       
+        border-radius: 3%;
+        width: 330px;
+        height: 150px;
+    }
+    
+    .kelas2 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        color: black;
+       
+        background-color: rgb( 249, 200, 70);
+        padding: 10px 10px;
+       
+        border-radius: 3%;
+        width: 330px;
+        height: 150px;
+    }
+    
+    .kelas3 {
+        position: relative;
+        width: 330px;
+    }
+    /* .time {
+        position: relative;
+        position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: black;
+    padding: 10px 10px;
+        width: 330px;
+        
+    } */
+}
